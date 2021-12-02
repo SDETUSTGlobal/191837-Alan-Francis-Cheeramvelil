@@ -1,0 +1,14 @@
+'''
+Created on 24-Nov-2021
+
+@author: lapto
+'''
+from selenium import webdriver 
+print("test case started")  
+driver = webdriver.Chrome()  
+driver.maximize_window()  
+driver.get("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx")
+driver.find_element_by_id("ctl00_MainContent_username").send_keys("Tester")
+driver.find_element_by_id("ctl00_MainContent_password").send_keys("test")
+driver.find_element_by_id("ctl00_MainContent_login_button").click()
+driver.close()

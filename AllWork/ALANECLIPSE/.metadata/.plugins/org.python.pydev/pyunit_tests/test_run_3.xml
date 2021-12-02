@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+    <summary errors="1" failures="0" finished="true" name="Test Run: 18" tests="0" total_time="Finished in: 0.00 secs."/>
+    <test location="C:\ALANECLIPSE\AmazonTest\AmazonPackage\AmazonWebsite.py" status="error" test="AmazonWebsite" time="0">
+        <stdout/>
+        <stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Software\eclipse\plugins\org.python.pydev.core_9.2.0.202110311311\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\ALANECLIPSE/AmazonTest/AmazonPackage\AmazonWebsite.py", line 17, in <module>
+    driver.find_element_by_id("add-to-cart-button").click()
+  File "C:\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 472, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="add-to-cart-button"]"}
+  (Session info: chrome=96.0.4664.45)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x002B6903+2517251]
+	Ordinal0 [0x0024F8E1+2095329]
+	Ordinal0 [0x00152848+1058888]
+	Ordinal0 [0x0017D448+1233992]
+	Ordinal0 [0x0017D63B+1234491]
+	Ordinal0 [0x001A7812+1406994]
+	Ordinal0 [0x0019650A+1336586]
+	Ordinal0 [0x001A5BBF+1399743]
+	Ordinal0 [0x0019639B+1336219]
+	Ordinal0 [0x001727A7+1189799]
+	Ordinal0 [0x00173609+1193481]
+	GetHandleVerifier [0x00445904+1577972]
+	GetHandleVerifier [0x004F0B97+2279047]
+	GetHandleVerifier [0x00346D09+534521]
+	GetHandleVerifier [0x00345DB9+530601]
+	Ordinal0 [0x00254FF9+2117625]
+	Ordinal0 [0x002598A8+2136232]
+	Ordinal0 [0x002599E2+2136546]
+	Ordinal0 [0x00263541+2176321]
+	BaseThreadInitThunk [0x756AFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77837A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77837A6E+238]
+	(No symbol) [0x00000000]
+
+ERROR: Module: AmazonWebsite could not be imported (file: C:\ALANECLIPSE\AmazonTest\AmazonPackage\AmazonWebsite.py).
+]]></stderr>
+    </test>
+    <launch mode="run">
+        <launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="AmazonTest AmazonWebsite.py"/>
+]]></launch_memento>
+    </launch>
+</pydev-testsuite>

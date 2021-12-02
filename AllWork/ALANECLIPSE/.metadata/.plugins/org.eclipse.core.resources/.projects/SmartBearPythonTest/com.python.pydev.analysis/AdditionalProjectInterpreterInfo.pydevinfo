@@ -1,0 +1,19 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\ALANECLIPSE\.metadata\.plugins\org.eclipse.core.resources\.projects\SmartBearPythonTest\com.python.pydev.analysis\v2_indexcache
+SmartBearPackage.SmartBearWebsite|1637737337395770100|C:\ALANECLIPSE\SmartBearPythonTest\SmartBearPackage\SmartBearWebsite.py
+SmartBearPackage.__init__|1637732147841426000|C:\ALANECLIPSE\SmartBearPythonTest\SmartBearPackage\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=SmartBearPackage.SmartBearWebsite
+1=C:\ALANECLIPSE\SmartBearPythonTest\SmartBearPackage\SmartBearWebsite.py
+-- END DICTIONARY
+-- START TREE 1
+2
+dri|1|driver!1^9#1*19@
+dro|2|drop!1^46#1*19@dropdown!1^29#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

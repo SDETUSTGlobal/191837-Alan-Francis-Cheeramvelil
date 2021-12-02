@@ -1,0 +1,29 @@
+'''
+Created on 24-Nov-2021
+
+@author: lapto
+'''
+
+from selenium import webdriver 
+import time
+print("test case started")  
+driver = webdriver.Chrome()  
+driver.maximize_window()
+driver.delete_all_cookies()
+driver.get("https://www.amazon.in/")
+driver.find_element_by_id("twotabsearchtextbox").send_keys("iphone12")
+time.sleep(2)
+driver.find_element_by_id("nav-search-submit-button").click()
+time.sleep(2)
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[1]/div[1]/div/span[3]/div[2]/div[3]/div/span/div/div/div[2]/div[2]/div/div/div[1]/h2/a/span").click()
+time.sleep(2)
+driver.get("https://www.amazon.in/New-Apple-iPhone-Pro-128GB/dp/B08L5V9T31/ref=sr_1_1_sspa?keywords=iphone+12&qid=1637742151&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNDFUQlhWNlRBRlEzJmVuY3J5cHRlZElkPUEwMTUyNTYyMjZVQjlSQUw1SktXMyZlbmNyeXB0ZWRBZElkPUEwMjY2NDQ1MkdHN1lESlNHQ1dUUiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=")
+driver.find_element_by_id("add-to-cart-button").click()
+time.sleep(2)
+driver.find_element_by_id("attach-close_sideSheet-link").click()
+time.sleep(2)
+driver.find_element_by_id("nav-cart-text-container").click()
+time.sleep(2)
+driver.find_element_by_id("proceedToRetailCheckout").click()
+time.sleep(2)
+driver.close()

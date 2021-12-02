@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WebDriverTest by packages]">
+  <test name="example(failed)">
+    <classes>
+      <class name="example.NewTest">
+        <methods>
+          <include name="testEasy"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- example.NewTest -->
+    </classes>
+  </test> <!-- example(failed) -->
+</suite> <!-- Failed suite [WebDriverTest by packages] -->

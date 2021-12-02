@@ -1,0 +1,18 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\ALANECLIPSE\.metadata\.plugins\org.eclipse.core.resources\.projects\AjioTest\com.python.pydev.analysis\v2_indexcache
+AjioPackage.__init__|1637745484026306500|C:\ALANECLIPSE\AjioTest\AjioPackage\__init__.py
+AjioPackage.AjioWebsite|1637745559252451600|C:\ALANECLIPSE\AjioTest\AjioPackage\AjioWebsite.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=C:\ALANECLIPSE\AjioTest\AjioPackage\AjioWebsite.py
+2=AjioPackage.AjioWebsite
+-- END DICTIONARY
+-- START TREE 1
+1
+dri|1|driver!1^7#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,18 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\ALANECLIPSE\.metadata\.plugins\org.eclipse.core.resources\.projects\MyntraTest\com.python.pydev.analysis\v2_indexcache
+MyntraPackage.MyntraWebsite|1637745740559428000|C:\ALANECLIPSE\MyntraTest\MyntraPackage\MyntraWebsite.py
+MyntraPackage.__init__|1637745670546492100|C:\ALANECLIPSE\MyntraTest\MyntraPackage\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=MyntraPackage.MyntraWebsite
+1=C:\ALANECLIPSE\MyntraTest\MyntraPackage\MyntraWebsite.py
+-- END DICTIONARY
+-- START TREE 1
+1
+dri|1|driver!1^7#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

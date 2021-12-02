@@ -1,0 +1,11 @@
+INDEX VERSION 1.126
+C:\ALANSPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1331766149.index
+\SPRINGMVCEXAMPLE\src\main\java
+C:\ALANSPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3716663624.index
+\SPRINGMVC\src\main\java
+C:\ALANSPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1092134530.index
+\SPRINGEX\src\main\java
+C:\ALANSPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2158142073.index
+\SPRINGEXAMPLE\src\main\java
+C:\ALANSPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3681933520.index
+\SPRINGMVCEG\src\main\java

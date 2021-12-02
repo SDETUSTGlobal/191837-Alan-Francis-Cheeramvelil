@@ -1,0 +1,18 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\ALANECLIPSE\.metadata\.plugins\org.eclipse.core.resources\.projects\AmazonTest\com.python.pydev.analysis\v2_indexcache
+AmazonPackage.__init__|1637739627702374800|C:\ALANECLIPSE\AmazonTest\AmazonPackage\__init__.py
+AmazonPackage.AmazonWebsite|1637741287430432600|C:\ALANECLIPSE\AmazonTest\AmazonPackage\AmazonWebsite.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=C:\ALANECLIPSE\AmazonTest\AmazonPackage\AmazonWebsite.py
+2=AmazonPackage.AmazonWebsite
+-- END DICTIONARY
+-- START TREE 1
+1
+dri|1|driver!1^11#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

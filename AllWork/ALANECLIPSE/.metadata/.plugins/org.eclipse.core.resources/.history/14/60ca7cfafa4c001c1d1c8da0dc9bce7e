@@ -1,0 +1,17 @@
+'''
+Created on 24-Nov-2021
+
+@author: lapto
+'''
+
+from selenium import webdriver 
+from selenium.webdriver.support.ui import Select
+print("test case started")  
+driver = webdriver.Chrome()  
+driver.maximize_window()
+driver.get("https://www.amazon.in/")
+driver.find_element_by_id("twotabsearchtextbox").send_keys("iphone13")
+driver.find_element_by_id("nav-search-submit-button").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[1]/div[1]/div/span[3]/div[2]/div[2]/div/span/div/div/div[2]/div[1]/div/div/span/a/div/img").click()
+driver.find_element_by_xpath("/html/body/div[4]/div[2]/div[3]/div[7]/div[7]/div/div/div[1]/div/div/div[2]/div/div[2]/div/form/div/div/div[35]/div[1]/span/span/span/input").click()
+driver.close()

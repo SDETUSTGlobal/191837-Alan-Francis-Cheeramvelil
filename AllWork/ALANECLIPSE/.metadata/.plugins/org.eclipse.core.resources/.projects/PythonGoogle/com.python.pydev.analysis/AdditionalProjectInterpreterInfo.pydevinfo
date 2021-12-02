@@ -1,0 +1,18 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\ALANECLIPSE\.metadata\.plugins\org.eclipse.core.resources\.projects\PythonGoogle\com.python.pydev.analysis\v2_indexcache
+GooglePkg.GoogleMod|1637731897596398700|C:\ALANECLIPSE\PythonGoogle\GooglePkg\GoogleMod.py
+GooglePkg.__init__|1637730387157527100|C:\ALANECLIPSE\PythonGoogle\GooglePkg\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=GooglePkg.GoogleMod
+1=C:\ALANECLIPSE\PythonGoogle\GooglePkg\GoogleMod.py
+-- END DICTIONARY
+-- START TREE 1
+1
+dri|1|driver!1^6#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

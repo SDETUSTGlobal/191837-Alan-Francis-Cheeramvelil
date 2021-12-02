@@ -1,0 +1,62 @@
+'''
+Created on 24-Nov-2021
+
+@author: lapto
+'''
+from selenium import webdriver 
+from selenium.webdriver.support.ui import Select
+print("test case started")  
+driver = webdriver.Chrome()  
+driver.maximize_window()  
+driver.get("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx")
+driver.find_element_by_id("ctl00_MainContent_username").send_keys("Tester")
+driver.find_element_by_id("ctl00_MainContent_password").send_keys("test")
+driver.find_element_by_id("ctl00_MainContent_login_button").click()
+driver.find_element_by_id("ctl00_MainContent_btnCheckAll").click()
+driver.find_element_by_id("ctl00_MainContent_btnDelete").click()
+driver.find_element_by_id("ctl00_MainContent_orderLInk").click()
+driver.back();
+driver.back();
+driver.find_element_by_id("ctl00_MainContent_btnUncheckAll").click()
+driver.find_element_by_id("ctl00_MainContent_orderGrid_ctl02_OrderSelector").click()
+driver.find_element_by_id("ctl00_MainContent_btnUncheckAll").click()
+     
+        
+        
+    
+driver.find_element_by_link_text("View all products").click()
+driver.find_element_by_partial_link_text("Order").click()
+dropdown = Select(driver.find_element_by_id("ctl00_MainContent_fmwOrder_ddlProduct"))  
+dropdown.select_by_visible_text("FamilyAlbum")  
+      
+driver.find_element_by_css_selector("#ctl00_MainContent_fmwOrder_txtQuantity").sendKeys("1000")
+driver.find_element_by_id("ctl00_MainContent_fmwOrder_txtUnitPrice").sendKeys("80")
+driver.find_element_by_xpath("/html/body/form/table/tbody/tr/td[2]/div[2]/table/tbody/tr/td/ol[1]/li[5]/input[2]").click()
+driver.find_element_by_name("ctl00$MainContent$fmwOrder$txtName").sendKeys("Alan Francis Cheeramvelil")
+driver.find_element_by_id("ctl00_MainContent_fmwOrder_TextBox2").sendKeys("ABC")
+
+driver.find_element_by_id("ctl00_MainContent_fmwOrder_TextBox3").sendKeys("kottayam")
+driver.find_element_by_id("ctl00_MainContent_fmwOrder_TextBox4").sendKeys("Kerala")
+driver.find_element_by_id("ctl00_MainContent_fmwOrder_TextBox5").sendKeys("686543")
+driver.find_element_by_id("ctl00_MainContent_fmwOrder_cardList_0").click()
+driver.find_element_by_id("ctl00_MainContent_fmwOrder_TextBox6").sendKeys("123456789012")
+driver.find_element_by_id("ctl00_MainContent_fmwOrder_TextBox1").sendKeys("01/99")
+driver.find_element_by_xpath("/html/body/form/table/tbody/tr/td[2]/div[2]/table/tbody/tr/td/div/a").click()
+
+drop =Select(driver.find_element_by_id("ctl00_MainContent_fmwOrder_ddlProduct"))
+drop.selectByVisibleText("ScreenSaver");  
+driver.driver.find_element_by_id("ctl00_MainContent_fmwOrder_txtQuantity").sendKeys("1000")
+driver.driver.find_element_by_id("ctl00_MainContent_fmwOrder_txtUnitPrice").sendKeys("80")
+driver.driver.find_element_by_xpath("/html/body/form/table/tbody/tr/td[2]/div[2]/table/tbody/tr/td/ol[1]/li[5]/input[2]").click()
+driver.driver.find_element_by_id("ctl00_MainContent_fmwOrder_txtName").sendKeys("Alan")
+driver.driver.find_element_by_id("ctl00_MainContent_fmwOrder_TextBox2").sendKeys("Alappey")
+driver.driver.find_element_by_id("ctl00_MainContent_fmwOrder_TextBox3").sendKeys("ANC")
+driver.driver.find_element_by_id("ctl00_MainContent_fmwOrder_TextBox4").sendKeys("Kerala")
+driver.driver.find_element_by_id("ctl00_MainContent_fmwOrder_TextBox5").sendKeys("689574")
+driver.driver.find_element_by_id("ctl00_MainContent_fmwOrder_cardList_0").click()
+driver.driver.find_element_by_id("ctl00_MainContent_fmwOrder_TextBox6").sendKeys("123456789012")
+driver.driver.find_element_by_id("ctl00_MainContent_fmwOrder_TextBox1").sendKeys("01/99")
+driver.driver.find_element_by_xpath("/html/body/form/table/tbody/tr/td[2]/div[2]/table/tbody/tr/td/div/input").click()
+driver.close();
+    
+
