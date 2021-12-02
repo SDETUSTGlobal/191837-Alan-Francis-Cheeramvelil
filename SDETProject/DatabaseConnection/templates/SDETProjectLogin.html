@@ -1,0 +1,71 @@
+<html>
+    <body >
+        <style>
+       	html,body {
+			background-color: #212121;
+			font-family: tahoma, sans-serif;
+			color:  grey;
+		}
+		input{
+			width: 60%;
+  			float: center;
+  			height: 25px;
+  			margin-top: 5px;
+  			text-align: center;
+  			text-indent: 5px;
+  			font-size: 12.6pt;
+  			border-radius: 5px;
+  			border: solid 1.5px #D3D3D3;
+  			-webkit-transition: 1s; /* Safari */
+  			transition: 1s;
+  		}
+		input[type=text]:hover{
+			box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+		}
+		input[type=text]:focus {
+			box-shadow: 0 0 5pt 2pt #D3D3D3;
+			outline-width: 0px;
+		}
+		#card {
+			background-color: #252E3B;
+			height: auto;
+			width: 350px;
+			margin: 10vh auto;
+			border-radius: 25px;
+			padding-bottom: 1px;
+			box-shadow: 2px 2px 5px #4069E2;
+		}
+		h1 {
+
+			color: #252E3B;
+			text-align: center;
+			width: 100%;
+			background-color: #F0DA50;
+			border-radius: 25px 25px 0 0;
+			color: #393B45;
+			padding: 30px 0;
+			font-weight: 800;
+			margin: 0;
+		}
+
+    	</style>
+		<div id="card">
+			<h1>LOGIN PAGE</h1>
+        	<form action="" method="post">
+        <center>
+            <h4>Hello User <br> Enter your account details to login</h4>
+
+        Enter your name <br><input type="text" name="Name" id="name" placeholder="Enter your name here" required>
+        <br><br>
+        UID <br><input type="text" name="UID" id="uidd" placeholder="Enter your UID" required pattern="[1-9 U]{4}"> <br><br>
+        Company Name <br><input type="text" name="CName" id="cnamee" placeholder="Enter your company name" required>
+        <br><br>
+        Email ID <br> <input type="email" name="cemail" id="cemailid" placeholder="Enter your email ID" required>
+        <br><br>
+        <left><input type="submit" style="background-color: #F0DA50;" name="loginbtn" value="LOGIN" /></left> <br><br>
+        <b><p>UID should start with 'U' and can contain digits 1-9. The UID must be only 4 characters login</p></b>
+     </center>
+            </form>
+		</div>
+	</body>
+</html>
